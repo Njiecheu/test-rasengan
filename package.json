@@ -1,0 +1,22 @@
+{
+  "name": "rasengan-test",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rasengan dev",
+    "build": "rasengan build",
+    "prepare": "rasengan prepare",
+    "start": "rasengan start"
+  },
+  "dependencies": {
+    "@rasenganjs/image": "^1.0.0",
+    "rasengan": "^1.0.0-beta.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "vite": "^5.2.0"
+  }
+}
