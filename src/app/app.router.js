@@ -7,7 +7,7 @@ import AdminRouter from "./admin/admin.router";
 class AppRouter extends RouterComponent {}
  
 export default defineRouter({
-  import: [AdminRouter],
+  imports: [AdminRouter],
   layout: AppLayout,
   pages: [Home, Test]
 })(AppRouter);

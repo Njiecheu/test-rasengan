@@ -1,10 +1,12 @@
 import React from "react";
-import { Outlet } from "rasengan";
+import { Outlet } from "rasengan"
+
+import styles from './layout.module.css'
  
 const AdminLayout = () => {
   return (
     <React.Fragment>
-      <h1>Admin Layout</h1>
+      <h1 className={styles.title}>Test Layout</h1>
       <Outlet />
     </React.Fragment>
   );
